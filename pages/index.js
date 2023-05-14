@@ -16,8 +16,8 @@ import usdcAbi from "../utils/usdcContract.json";
 
 const options = [
   { value: 'Binance Coin', label: <div><Image src="/usd2.png" width={50} height={50} alt="Picture of the author"/>Tether</div> },
-  { value: 'MakerDao', label: <div><Image src="/usd3.png" width={50} height={50} alt="Picture of the author"/>Tether</div> },
-  { value: 'MakerDao', label: <div><Image src="/usd4.png" width={50} height={50} alt="Picture of the author"/>Tether</div> },
+  { value: 'MakerDao', label: <div><Image src="/usd3.png" width={50} height={50} alt="Picture of the author"/>Binance Coin</div> },
+  { value: 'MakerDao', label: <div><Image src="/usd4.png" width={50} height={50} alt="Picture of the author"/>MakerDao</div> },
 ];
 export default function Home() {
   const usdcContractAddress = "0x07865c6E87B9F70255377e024ace6630C1Eaa37F";
